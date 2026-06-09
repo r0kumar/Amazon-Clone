@@ -6,7 +6,7 @@ A fully responsive **Amazon Clone** built using modern web technologies. This pr
 
 ## 🚀 Live Demo
 👉 Add your deployed link here  
-Example: [amazon-clone-virid-zeta-23.vercel.app](https://amazon-clone-virid-zeta-23.vercel.app/)
+Example: http://127.0.0.1:5500/
 
 ---
 
