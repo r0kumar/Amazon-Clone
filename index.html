@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="/images/amazon_logo.png">
+</head>
+
+<body>
+  <header>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <!-- Amazon Logo -->
+      <div class="navbar-logo">
+        <img src="images/amazon_logo.png" alt="Amazon Logo" class="logo">
+      </div>
+
+      <!-- Delivery Location -->
+      <div class="navbar-location">
+        <span>Deliver to Rohit</span>
+        <strong>Noida 201301</strong>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="navbar-search">
+        <select class="navbar-dropdown">
+          <option>All</option>
+        </select>
+        <input type="text" class="navbar-search-input" placeholder="Search Amazon.in">
+        <button class="navbar-search-button">
+          <i class="fa fa-search search-icon" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <!-- Right Side Links -->
+      <div class="navbar-right">
+        <!-- Language Dropdown -->
+        <div class="navbar-language">
+          <img src="images/flag-icon.png" alt="Flag" class="flag">
+          <span>EN</span>
+        </div>
+
+        <!-- Account & Lists -->
+        <div class="navbar-account">
+          <span>Hello, Rohit</span><br>
+          <strong>Account & Lists</strong>
+        </div>
+
+        <!-- Returns & Orders -->
+        <div class="navbar-orders">
+          <span>Returns</span><br>
+          <strong>& Orders</strong>
+        </div>
+
+        <!-- Cart -->
+        <div class="navbar-cart">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner">
+      <div class="banner-content">
+        <div class="panel">
+          <span class="material-symbols-outlined">menu</span>
+          <a class="banner-all" href="#">All</a>
+        </div>
+
+        <ul class="links">
+          <li><a href="#">Fresh</a></li>
+          <li><a href="#">Today's Deals</a></li>
+          <li><a href="#">Sell</a></li>
+          <li><a href="#">MX Player</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Gift Ideas</a></li>
+          <li><a href="#">Amazon Pay</a></li>
+          <li><a href="#">Buy Again</a></li>
+          <li><a href="#">Beauty & Personal Care</a></li>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">Amazon Basics</a></li>
+        </ul>
+
+        <div class="deals">
+          <a href="#">Shop deals in Electronics</a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Hero Section with Image Slider -->
+  <section class="hero-section">
+    <div class="slider">
+        <div class="slides">
+            <!-- Slide images -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="images/hero-img1.jpg" alt="Hero Image 1">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="image-container">
+                    <img src="images/hero-img2.jpg" alt="Hero Image 2">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="image-container">
+                    <img src="images/hero-img3.jpg" alt="Hero Image 3">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="image-container">
+                    <img src="images/hero-img4.jpg" alt="Hero Image 4">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+
+            <!-- Automatic navigation -->
+            <div class="auto-navigation">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+  
+  <section class="shop-section">
+    <div class="shop-images">
+      <div class="shop-link">
+        <div class="discount-badge">
+          <span>67% off</span> <span class="festival-name">Great Indian Festival</span>
+        </div>
+        <img src="images/img-1.jpg" alt="Apple iPhone 13 (128GB)">
+        <div class="price-info">
+          <span class="current-price">₹43,999</span>
+          <span class="mrp">M.R.P: <span class="old-price">₹59,900</span></span>
+        </div>
+        <div class="product-name">
+          Apple iPhone 13 (128GB)
+        </div>
+        <div class="product-buttons">
+          <button class="btn add-to-cart">Add to Cart</button>
+          <button class="btn buy-now">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Duplicate the structure above for additional product cards -->
+      <div class="shop-link">
+        <div class="discount-badge">
+          <span>45% off</span> <span class="festival-name">Great Indian Festival</span>
+        </div>
+        <img src="images/img-2.jpg" alt="Smartwatch">
+        <div class="price-info">
+          <span class="current-price">₹1,7,499</span>
+          <span class="mrp">M.R.P: <span class="old-price">₹1,15,999</span></span>
+        </div>
+        <div class="product-name">
+          Macbook Pro M1 (256GB)
+        </div>
+        <div class="product-buttons">
+          <button class="btn add-to-cart">Add to Cart</button>
+          <button class="btn buy-now">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="shop-link">
+        <div class="discount-badge">
+          <span>30% off</span> <span class="festival-name">Great Indian Festival</span>
+        </div>
+        <img src="images/img-3.jpg" alt="Smartwatch">
+        <div class="price-info">
+          <span class="current-price">₹18,999</span>
+          <span class="mrp">M.R.P: <span class="old-price">₹25,999</span></span>
+        </div>
+        <div class="product-name">
+          IQOO Z9s 5G
+        </div>
+        <div class="product-buttons">
+          <button class="btn add-to-cart">Add to Cart</button>
+          <button class="btn buy-now">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="shop-link">
+        <div class="discount-badge">
+          <span>20% off</span> <span class="festival-name">Great Indian Festival</span>
+        </div>
+        <img src="images/img-4.jpg" alt="Smartwatch">
+        <div class="price-info">
+          <span class="current-price">₹59,999</span>
+          <span class="mrp">M.R.P: <span class="old-price">₹79,999</span></span>
+        </div>
+        <div class="product-name">
+          Lenovo Ideapad 15
+        </div>
+        <div class="product-buttons">
+          <button class="btn add-to-cart">Add to Cart</button>
+          <button class="btn buy-now">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="shop-link">
+        <div class="discount-badge">
+          <span>25% off</span> <span class="festival-name">Great Indian Festival</span>
+        </div>
+        <img src="images/img-5.jpg" alt="Smartwatch">
+        <div class="price-info">
+          <span class="current-price">₹49,499</span>
+          <span class="mrp">M.R.P: <span class="old-price">₹69,999</span></span>
+        </div>
+        <div class="product-name">
+          Samsung Galaxy S23 Ultra
+        </div>
+        <div class="product-buttons">
+          <button class="btn add-to-cart">Add to Cart</button>
+          <button class="btn buy-now">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="shop-link">
+        <div class="discount-badge">
+          <span>15% off</span> <span class="festival-name">Great Indian Festival</span>
+        </div>
+        <img src="images/img-6.jpg" alt="Smartwatch">
+        <div class="price-info">
+          <span class="current-price">₹28,999</span>
+          <span class="mrp">M.R.P: <span class="old-price">₹35,999</span></span>
+        </div>
+        <div class="product-name">
+           IQOO Neo9 Pro 5G
+        </div>
+        <div class="product-buttons">
+          <button class="btn add-to-cart">Add to Cart</button>
+          <button class="btn buy-now">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="shop-link">
+        <div class="discount-badge">
+          <span>37% off</span> <span class="festival-name">Great Indian Festival</span>
+        </div>
+        <img src="images/img-7.jpg" alt="Smartwatch">
+        <div class="price-info">
+          <span class="current-price">₹31,990</span>
+          <span class="mrp">M.R.P: <span class="old-price">₹50,990</span></span>
+        </div>
+        <div class="product-name">
+          Acer Aspire Lite 13th Gen
+        </div>
+        <div class="product-buttons">
+          <button class="btn add-to-cart">Add to Cart</button>
+          <button class="btn buy-now">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="shop-link">
+        <div class="discount-badge">
+          <span>30% off</span> <span class="festival-name">Great Indian Festival</span>
+        </div>
+        <img src="images/img-8.jpg" alt="Smartwatch">
+        <div class="price-info">
+          <span class="current-price">₹8,999</span>
+          <span class="mrp">M.R.P: <span class="old-price">₹12,999</span></span>
+        </div>
+        <div class="product-name">
+          Gaming Wireless Headphones
+        </div>
+        <div class="product-buttons">
+          <button class="btn add-to-cart">Add to Cart</button>
+          <button class="btn buy-now">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <!-- Back to Top button -->
+    <a href="#" class="footer-title">Back to top</a>
+
+    <!-- Footer Links -->
+    <div class="footer-items">
+      <ul>
+        <h3>Get to Know Us</h3>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press Release</a></li>
+        <li><a href="#">Amazon Science</a></li>
+      </ul>
+      <ul>
+        <h3>Connect with Us</h3>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+      <ul>
+        <h3>Make Money with Us</h3>
+        <li><a href="#">Sell on Amazon</a></li>
+        <li><a href="#">Sell under Amazon Accelerator</a></li>
+        <li><a href="#">Protect and Build Your Brand</a></li>
+        <li><a href="#">Amazon Global Selling</a></li>
+      </ul>
+      <ul>
+        <h3>Let Us Help You</h3>
+        <li><a href="#">Your Account</a></li>
+        <li><a href="#">Returns Centre</a></li>
+        <li><a href="#">100% Purchase Protection</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer Bottom with Country and Language selection in a single row -->
+    <div class="footer-bottom">
+      <!-- Amazon logo -->
+      <img src="images/amazon_logo.png" alt="Amazon Logo" width="100">
+
+      <!-- Language Dropdown -->
+      <div class="language-selector">
+        <select>
+          <option><img src="#" alt="USA Flag">English</option>
+          <option><img src="#" alt="Spain Flag">Español</option>
+          <option><img src="#" alt="France Flag">Français</option>
+          <option><img src="#" alt="Germany Flag">Deutsch</option>
+          <option><img src="#" alt="Japan Flag">हिन्दी</option>
+        </select>
+      </div>
+
+      <!-- Country Flag and Name -->
+      <div class="country-name">
+        <img src="images/flag-icon.png" alt="Country Flag" class="flag">
+        <span>India</span>
+      </div>
+    </div>
+  </footer>
+
+
+<script src="script.js"> </script>
+
+</body>
+
+</html>
